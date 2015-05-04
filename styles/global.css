@@ -6293,31 +6293,31 @@ button.close {
 #masthead {
   background-image: url("https://s3.amazonaws.com/resflow-brand-assets/marketing/site/splash-primary-img.webp");
   background-position: center;
-  background-size: auto;
-  height: 1300px; }
+  background-size: auto; }
   #masthead .top-links {
-    font-size: 36px;
+    font-size: 24px;
     color: #fff;
     font-weight: 300; }
   #masthead #full-logo {
     display: block;
-    margin: 250px auto 0 auto; }
+    margin: 175px auto 0 auto;
+    width: 600px; }
   #masthead #tagline {
     font-size: 72px;
     font-family: "runda";
     font-weight: 500;
     color: #fff;
     display: block;
-    width: 800px;
+    width: 700px;
     text-align: center;
     margin: 150px auto 0 auto; }
   #masthead #product-blurb {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 300;
     color: #fff;
-    width: 900px;
+    max-width: 900px;
     text-align: center;
-    margin: 150px auto 0 auto; }
+    margin: 200px auto 100px auto; }
 
 #we-understand {
   padding-top: 100px;
@@ -6343,12 +6343,12 @@ button.close {
   padding-bottom: 100px;
   text-align: center; }
   #value-prop-1 .half {
-    font-size: 100px;
+    font-size: 72px;
     display: block; }
   #value-prop-1 .description {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 300;
-    max-width: 1000px;
+    max-width: 800px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -6371,12 +6371,12 @@ button.close {
     text-align: center; }
   #agent-paths .agent-path {
     border-radius: 30px;
-    width: 700px;
+    width: 500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto; }
     #agent-paths .agent-path .benefit-box__title {
-      font-size: 64px;
+      font-size: 48px;
       width: 90%;
       display: block;
       border-bottom: #fff solid 3px;
@@ -6384,7 +6384,7 @@ button.close {
       margin-right: auto;
       padding-bottom: 10px; }
     #agent-paths .agent-path .benefit-box__text {
-      font-size: 36px;
+      font-size: 24px;
       font-weight: 200;
       width: 90%;
       margin-left: auto;
@@ -6398,23 +6398,23 @@ button.close {
   padding-top: 150px; }
 
 .features-col .feature-group {
-  max-width: 700px;
+  max-width: 600px;
   margin-bottom: 120px; }
   .features-col .feature-group.left {
-    margin-right: 100px;
+    margin-right: 50px;
     margin-left: auto; }
   .features-col .feature-group.right {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: auto; }
   .features-col .feature-group .feature-category {
     margin-bottom: 40px; }
   .features-col .feature-group .feature-category__icon {
     display: inline-block;
-    width: 200px;
+    width: 150px;
     float: left; }
   .features-col .feature-group .feature-category__text {
     display: inline-block;
-    width: calc(100% - 205px);
+    width: calc(100% - 155px);
     padding-top: 5px;
     padding-left: 30px; }
     .features-col .feature-group .feature-category__text .title {
@@ -6432,16 +6432,17 @@ button.close {
     margin-bottom: 25px; }
     .features-col .feature-group .feature-list .feature-item .feature-bullet {
       display: inline-block;
-      width: 155px;
+      width: 125px;
       float: left; }
       .features-col .feature-group .feature-list .feature-item .feature-bullet img {
-        margin-left: 83px; }
+        margin-left: 68px;
+        width: 24px; }
     .features-col .feature-group .feature-list .feature-item .feature-text, .features-col .feature-group .feature-list .feature-item .feature-footnote {
-      font-size: 24px;
+      font-size: 18px;
       font-weight: 300;
       color: #4A4A4A;
       display: inline-block;
-      width: calc(100% - 155px); }
+      width: calc(100% - 125px); }
     .features-col .feature-group .feature-list .feature-item .feature-footnote {
       font-style: italic;
       float: right; }
@@ -6457,20 +6458,22 @@ button.close {
     width: 400px; }
     #contact-us-section .contact-method.left {
       margin-left: auto;
-      margin-right: 200px; }
+      margin-right: 150px; }
     #contact-us-section .contact-method.right {
       margin-right: auto;
-      margin-left: 200px; }
+      margin-left: 150px; }
     #contact-us-section .contact-method .title {
       display: block;
       margin-bottom: 30px; }
     #contact-us-section .contact-method .phone-number {
+      font-size: 36px;
       display: block;
       font-weight: 300; }
     #contact-us-section .contact-method .email {
+      font-size: 36px;
       color: #fff;
       font-weight: 300;
-      border: #fff solid 5px;
+      border: #fff solid 3px;
       border-radius: 20px;
       background-color: #E05657;
       padding-left: 30px;
